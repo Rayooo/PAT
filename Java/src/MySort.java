@@ -1,7 +1,5 @@
 import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
+import java.util.*;
 
 /**
  * Created by Ray on 2017/2/23.
@@ -20,19 +18,13 @@ public class MySort {
         array[8] = ((int)(Math.random()*100+1));
         array[9] = ((int)(Math.random()*100+1));
 
-        Arrays.sort(array,new comp());
+        Arrays.sort(array, (o1, o2) -> -o1+o2);
 
-        for(int i :array){
+        for(int i : array ){
             System.out.println(i);
         }
 
+
     }
 
-}
-class comp implements Comparator<Integer>{
-
-    @Override
-    public int compare(Integer o1, Integer o2) {
-        return o2-o1;
-    }
 }

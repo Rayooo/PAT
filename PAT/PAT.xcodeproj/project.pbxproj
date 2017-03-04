@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		71617BD51E499AE700A28E6B /* Problem280.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71617BD41E499AE700A28E6B /* Problem280.cpp */; };
+		71DAD9FC1E6A654600553EF8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71DAD9F81E6A654600553EF8 /* main.cpp */; };
+		71DAD9FD1E6A654600553EF8 /* Problem250.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71DAD9F91E6A654600553EF8 /* Problem250.cpp */; };
+		71DAD9FE1E6A654600553EF8 /* Problem4042.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71DAD9FA1E6A654600553EF8 /* Problem4042.cpp */; };
+		71DAD9FF1E6A654600553EF8 /* Problem4079.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71DAD9FB1E6A654600553EF8 /* Problem4079.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		713D875A1E42DEE600D44B02 /* PAT */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PAT; sourceTree = BUILT_PRODUCTS_DIR; };
 		71617BD41E499AE700A28E6B /* Problem280.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Problem280.cpp; sourceTree = "<group>"; };
+		71DAD9F81E6A654600553EF8 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		71DAD9F91E6A654600553EF8 /* Problem250.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Problem250.cpp; sourceTree = "<group>"; };
+		71DAD9FA1E6A654600553EF8 /* Problem4042.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Problem4042.cpp; sourceTree = "<group>"; };
+		71DAD9FB1E6A654600553EF8 /* Problem4079.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Problem4079.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 		713D875C1E42DEE600D44B02 /* PAT */ = {
 			isa = PBXGroup;
 			children = (
+				71DAD9F81E6A654600553EF8 /* main.cpp */,
+				71DAD9F91E6A654600553EF8 /* Problem250.cpp */,
+				71DAD9FA1E6A654600553EF8 /* Problem4042.cpp */,
+				71DAD9FB1E6A654600553EF8 /* Problem4079.cpp */,
 				71617BD41E499AE700A28E6B /* Problem280.cpp */,
 			);
 			path = PAT;
@@ -119,7 +131,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71DAD9FD1E6A654600553EF8 /* Problem250.cpp in Sources */,
+				71DAD9FC1E6A654600553EF8 /* main.cpp in Sources */,
 				71617BD51E499AE700A28E6B /* Problem280.cpp in Sources */,
+				71DAD9FF1E6A654600553EF8 /* Problem4079.cpp in Sources */,
+				71DAD9FE1E6A654600553EF8 /* Problem4042.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
